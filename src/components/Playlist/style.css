@@ -1,0 +1,12 @@
+.playlist-wrapper {
+    padding: 0 50px;
+}
+.playlist-header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+}
+.playlist-info {
+    padding: 0 50px;
+}

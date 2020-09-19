@@ -1,0 +1,10 @@
+.album-wrapper {
+  padding: 0 50px;
+}
+.album-header {
+  display: flex;
+  height: 250px;
+}
+.album-info {
+  margin-left: 50px;
+}

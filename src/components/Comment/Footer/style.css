@@ -1,0 +1,57 @@
+.footer-wrapper {
+  width: 100%;
+  height: 53px;
+  padding: 0 200px;
+  display: flex;
+  justify-content: start;
+  justify-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(252, 98, 98);
+}
+
+.song-detail-button {
+  height: 53px;
+}
+
+.audio {
+  width: 600px;
+  margin-left: 200px;
+  background-color: rgb(241, 243, 244);
+}
+
+.song-detail-button {
+  display: flex;
+  cursor: pointer;
+}
+
+.song-detail-display {
+  position: absolute;
+  left: 199px;
+  background-color: rgba(139, 139, 139, 0.151);
+  display: none;
+}
+
+.song-detail-button:hover .song-detail-display {
+  display: block;
+}
+
+.song-detail-info {
+  width: 150px;
+  height: 100%;
+  padding: 3px 5px;
+  background-color: rgb(241, 243, 244);
+}
+
+.playing-name {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+.footer-control-button {
+  padding-top: 5px;
+}
+.play-turn-button {
+  margin-left: 10px;
+}
