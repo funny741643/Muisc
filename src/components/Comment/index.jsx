@@ -9,7 +9,7 @@ import { routerConfig } from "./routerConfig";
 const Comment = () => {
   return (
     <div>
-      <Header></Header>
+      <Header />
       <div className="main">
         <Sidebar></Sidebar>
         <Body config={routerConfig}></Body>

@@ -1,7 +1,7 @@
 import React from "react";
 import SlideWindow from "../../../containers/SlideWindowWrapper";
 
-const NewAlbums = (props) => {
+const NewDescs = (props) => {
   return (
     <div className="newdisc_wrapper">
       <h2>新碟上架</h2>
@@ -10,4 +10,4 @@ const NewAlbums = (props) => {
   );
 };
 
-export default NewAlbums;
+export default NewDescs;

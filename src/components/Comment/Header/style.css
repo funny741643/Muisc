@@ -1,5 +1,7 @@
 .header {
     width: 100%;
+    max-width: 200%;
+    min-width: 1366px;
     height: 70px;
     background-color: rgb(252, 85, 85);
 }

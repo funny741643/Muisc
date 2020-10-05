@@ -1,10 +1,10 @@
 .songlist-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .songlist-item-wrapper {
-  width: 250px;
+  width: 230px;
   overflow: hidden;
 }
 .songlist-name {
@@ -24,6 +24,6 @@
   font-size: 26px;
   text-align: center;
   color: #fff;
-  margin-right: 60px;
+  /* margin-right: 60px; */
   background-color: rgb(247, 105, 105);
 }

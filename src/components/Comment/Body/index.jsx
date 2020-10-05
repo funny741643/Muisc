@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import './style.css'
+
 class Body extends Component {
   state = { config: [] };
   componentDidMount() {
@@ -9,7 +11,7 @@ class Body extends Component {
   }
   render() {
     return (
-      <div style={{ width: "100%", marginBottom: "56px", padding: "0 50px" }}>
+      <div className="body">
         {this.state.config.map(({ path, component, key }) => {
           return <Route path={path} component={component} key={key} />;
         })}

@@ -4,6 +4,7 @@
 .album-header {
   display: flex;
   height: 250px;
+  margin-bottom: 20px;
 }
 .album-info {
   margin-left: 50px;

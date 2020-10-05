@@ -23,7 +23,7 @@ const Playlist = (props) => {
     <div className="playlist-wrapper">
       <div className="playlist-header">
         <div className="playlist-img">
-          <img src={playlist.coverImgUrl} width="300px" height="300px" />
+          <img src={playlist.coverImgUrl} width="250px" height="250px" />
         </div>
         <div className="playlist-info">
           <h2>{playlist.name}</h2>

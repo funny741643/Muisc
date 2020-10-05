@@ -1,0 +1,37 @@
+.mv-wrapper {
+  display: flex;
+}
+.aMv {
+  width: 900px;
+}
+.video {
+  width: 900px;
+  height: auto;
+}
+.mv-info {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.mv-info-name {
+  display: flex;
+  align-items: baseline;
+}
+.mv-info-base {
+  width: 300px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.simi-mvs-wrapper {
+  padding: 0 30px;
+}
+.simi-mvs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.aSimiMv {
+  width: 120px;
+  padding: 0 10px;
+}

@@ -80,7 +80,7 @@ const Songlist = (props) => {
               return (
                 <Link to={`/playlist/?id=${item.id}`} key={item.id}>
                   <div className="songlist-item-wrapper">
-                    <img src={item.coverImgUrl} width="250px" height="250px" />
+                    <img src={item.coverImgUrl} width="230px" height="230px" />
                     <h3 className="songlist-name">{item.name}</h3>
                   </div>
                 </Link>

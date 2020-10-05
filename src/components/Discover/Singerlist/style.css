@@ -1,0 +1,25 @@
+.radio-button {
+  margin-left: 5px;
+}
+.catlist-classify {
+  display: flex;
+  margin-bottom: 10px;
+}
+.singerlist-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.singerlist-item-wrapper {
+  padding: 10px;
+}
+.singerlist-bottom {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+.tag-name {
+  flex: 0 0 50px;
+}

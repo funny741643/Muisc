@@ -20,14 +20,11 @@ const Discover = (props) => {
         <Menu.Item key="/discover/songlist">
           <Link to="/discover/songlist">歌单</Link>
         </Menu.Item>
-        <Menu.Item key="rankinglist">
-          <Link to="/discover">排行榜</Link>
+        <Menu.Item key="/discover/ranklist">
+          <Link to="/discover/ranklist">排行榜</Link>
         </Menu.Item>
-        <Menu.Item key="singer">
-          <Link to="/discover">歌手</Link>
-        </Menu.Item>
-        <Menu.Item key="newsong">
-          <Link to="/discover">最新音乐</Link>
+        <Menu.Item key="/discover/singerlist">
+          <Link to="/discover/singerlist">歌手</Link>
         </Menu.Item>
       </Menu>
       <Main config={routerConfig} />

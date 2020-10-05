@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import SlideWindow from '../Discover/Recommend/NewAlbums/SlideWindow'
+import SlideWindow from '../Discover/Recommend/NewDescs/SlideWindow'
 import createAction from "../../redux/action";
 import { SAVE_ALBUM_STATE } from "../constant";
 

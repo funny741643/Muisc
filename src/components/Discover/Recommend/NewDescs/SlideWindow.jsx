@@ -22,7 +22,7 @@ class SlideWindow extends Component {
   handleTurn(e) {
     if (e.target.name === "right") {
       this.setState({
-        turnStyle: { transform: "translate(-1360px)" },
+        turnStyle: { transform: "translate(-1160px)" },
       });
     } else {
       this.setState({

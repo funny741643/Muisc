@@ -1,0 +1,45 @@
+.gov-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+.world-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gov-item-playlist {
+  width: 250px;
+  padding: 0;
+  list-style: none;
+}
+.gov-item-playlist-item {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gov-item-playlist-item:hover {
+  background-color: rgba(226, 223, 223, 0.185);
+}
+
+.gov-item-playlist-item:nth-child(even) {
+  background-color: rgba(226, 223, 223, 0.719);
+}
+
+.get-more-item {
+  text-align: right;
+}
+.gov-item-cover {
+  position: relative;
+}
+.toplist-play-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+.world-item-cover {
+    margin-bottom: 10px;
+}

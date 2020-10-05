@@ -3,6 +3,8 @@ import MyFM from "../MyFM";
 // import Playlist from "../Playlist";
 import Playlist from "../containers/playlistWrapper";
 import Album from "../containers/AlbumWrapper";
+import Singer from "../containers/SingerWrapper";
+import Mv from "../containers/MvWrapper";
 
 export const routerConfig = [
   {
@@ -26,5 +28,17 @@ export const routerConfig = [
     component: Album,
     exact: false,
     key: 103,
+  },
+  {
+    path: "/singer",
+    component: Singer,
+    exact: false,
+    key: 104,
+  },
+  {
+    path: "/mv",
+    component: Mv,
+    exact: false,
+    key: 105,
   },
 ];

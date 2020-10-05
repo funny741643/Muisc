@@ -24,7 +24,6 @@ const Footer = (props) => {
 
   // 获取歌单列表，并重新组织为有权限歌曲的列表
   useEffect(() => {
-    console.log(playlist);
     let musics = [];
     for (let i = 0; i < playlist.length; i++) {
       Axios({
@@ -88,7 +87,7 @@ const Footer = (props) => {
     setPlayUrl(musicUrls[nextIndex].url);
     setPlayDetail(playlist[playIndex]);
   };
-  
+
   const handlePlayPre = () => {
     if (playlist.length === 0) return;
     let preIndex = playIndex === 0 ? playlist.length - 1 : playIndex - 1;

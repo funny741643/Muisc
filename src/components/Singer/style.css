@@ -1,0 +1,35 @@
+.singer-info-wrapper {
+  display: flex;
+}
+.singer-info {
+  margin-left: 30px;
+}
+.artistDesc-wrapper {
+  width: 800px;
+  height: auto;
+  max-height: 543px;
+  overflow-y: scroll;
+}
+.artistDesc-txt {
+  text-indent: 2em;
+}
+.mvs-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.amv {
+  width: 210px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.albums-gallery {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.aAlbum {
+  width: 200px;
+  padding: 0 25px;
+}

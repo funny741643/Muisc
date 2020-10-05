@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import RecommendSonglist from "./RecommendSonglist";
-import NewDisc from "./NewAlbums";
+import NewDisc from "./NewDescs";
 import NewSongs from "../../containers/NewSongsWrapper";
 
 const Recommend = () => {
