@@ -1,0 +1,26 @@
+.love-music-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.love-music-item {
+  width: 600px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.love-music-item:hover {
+    background-color: rgba(236, 236, 236, 0.493);
+}
+
+.love-music-item-name {
+  width: 250px;
+  overflow: hidden;
+}
+.love-music-item-singer {
+  width: 250px;
+  overflow: hidden;
+}

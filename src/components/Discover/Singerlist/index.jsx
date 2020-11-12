@@ -72,7 +72,6 @@ const Singerlist = (props) => {
       intersectionObserver.unobserve(
         document.querySelector(".singerlist-bottom")
       );
-      console.log("Loaded new items");
     });
     // 开始观察
     intersectionObserver.observe(document.querySelector(".singerlist-bottom"));

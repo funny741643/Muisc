@@ -1,6 +1,5 @@
 import Discover from "../Discover";
-import MyFM from "../MyFM";
-// import Playlist from "../Playlist";
+import MyLove from "../containers/MyLoveWrapper";
 import Playlist from "../containers/playlistWrapper";
 import Album from "../containers/AlbumWrapper";
 import Singer from "../containers/SingerWrapper";
@@ -13,8 +12,8 @@ export const routerConfig = [
     key: 100,
   },
   {
-    path: "/myfm",
-    component: MyFM,
+    path: "/mylove",
+    component: MyLove,
     key: 101,
   },
   {

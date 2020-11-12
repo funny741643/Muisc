@@ -1,22 +1,52 @@
 .header {
-    width: 100%;
-    max-width: 200%;
-    min-width: 1366px;
-    height: 70px;
-    background-color: rgb(252, 85, 85);
+  width: 100%;
+  max-width: 200%;
+  min-width: 1366px;
+  height: 70px;
+  background-color: rgb(252, 85, 85);
 }
 .header-wrapper {
-    width: 80%;
-    margin: 0 auto;
-    height: 100%;
-    line-height: 70px;
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  line-height: 70px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
 }
 .top-func {
-    display: flex;
-    width: 500px;
-    padding: 0 50px;
-    justify-content: space-around;
+  display: flex;
+  width: 500px;
+  padding: 0 50px;
+  justify-content: space-around;
+}
+.login-btn-wrapper {
+  text-align: right;
+}
+.turn-loginWay-btn {
+  margin-right: 20px;
+}
+.send-authCode-btn {
+  cursor: pointer;
+}
+.userInfo-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+.avater-wrapper {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avater-wrapper img {
+  vertical-align: top;
+}
+
+.user-nickname {
+  color: white;
+  margin: 0 10px;
 }

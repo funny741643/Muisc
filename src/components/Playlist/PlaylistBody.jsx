@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Menu, Table, message } from "antd";
 import Axios from "axios";
 
@@ -20,11 +20,6 @@ const PlaylistBody = (props) => {
       title: "专辑",
       dataIndex: "album",
       width: 250,
-    },
-    {
-      title: "时长",
-      dataIndex: "during",
-      width: 100,
     },
     {
       title: "操作",
@@ -64,7 +59,6 @@ const PlaylistBody = (props) => {
       name: track.name,
       singer: singer,
       album: track.al.name,
-      during: "4:05",
     });
   }
 
@@ -78,7 +72,7 @@ const PlaylistBody = (props) => {
         <Table
           columns={columns}
           dataSource={data}
-          scroll={{ y: 240 }}
+          scroll={{ y: 300 }}
           pagination={false}
         />
       </div>
